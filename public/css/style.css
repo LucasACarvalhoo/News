@@ -1,0 +1,72 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+aside {
+    background-color: lightgray;
+    padding: 20px;
+    width: 200px;
+    float: right; /* Posiciona o aside à direita */
+    
+}
+
+aside ul {
+    list-style: inside decimal;
+    padding: 0;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+/* Estilo para os links do aside */
+aside a {
+    text-decoration: none;
+    color: #000000;
+}
+
+section{
+    margin: 1px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(222, 184, 135, 0.712);
+}
+
+h1{
+    font-size: 3em;
+}
+
+nav ul{
+    background-color: #00b7ff;
+    text-align: center;
+    list-style: none;
+    padding: 7px;
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 7px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
